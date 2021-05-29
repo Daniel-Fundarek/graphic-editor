@@ -58,8 +58,8 @@ public class TestCanvas extends Canvas implements MouseListener, MouseMotionList
             int dy = e.getY();
             if (dx > this.x && dy < this.y){
                 actualRect.y = dy;
-                actualRect.width = this.y - dy;
-                actualRect.height =  dx - this.x;
+                actualRect.height = this.y - dy;
+                actualRect.width =  dx - this.x;
 
             }
             else if(dx < this.x && dy < this.y){
